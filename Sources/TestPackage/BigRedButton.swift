@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct BigRedButton: View {
-    // MARK: Internal
+public struct BigRedButton: View {
+    // MARK: Public
 
-    var body: some View {
+    public var body: some View {
         Button("Tap Me") {
             // animationAmount += 1
         }
