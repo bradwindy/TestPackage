@@ -8,6 +8,10 @@
 import SwiftUI
 
 public struct BigRedButton: View {
+    // MARK: Lifecycle
+
+    public init() {}
+
     // MARK: Public
 
     public var body: some View {
